@@ -1,50 +1,50 @@
-# React + TypeScript + Vite
+# React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio built with React. It showcases my web development projects, skills, and experience.
 
-Currently, two official plugins are available:
+## Features
+- **About Me**: A short introduction and a photo.
+- **Portfolio**: Links to my projects with live demos and GitHub repositories.
+- **Resume**: Downloadable resume and a list of my skills.
+- **Contact**: A simple contact form to reach me.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+- React
+- HTML/CSS
+- JavaScript
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repo:
 
-- Configure the top-level `parserOptions` property like this:
+   ```bash
+   git clone https://github.com/your-username/my-react-portfolio.git
+Navigate to the project folder:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+bash
+Copy
+cd my-react-portfolio
+Install dependencies:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+bash
+Copy
+npm install
+Start the development server:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+bash
+Copy
+npm start
+Your app will run at http://localhost:3000.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Contact
+Email: hkalsalmi@hotnail.com
+GitHub: hamzahalsalmi
+markdown
+Copy
+
+### Key Points:
+- **Simple Overview** of the project.
+- **Features**: Quick bullet points.
+- **Technologies**: Only mention the major ones.
+- **Installation**: Basic setup instructions.
+- **Contact**: How to get in touch.
